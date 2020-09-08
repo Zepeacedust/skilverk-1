@@ -1,10 +1,5 @@
 # skilverk-1
 dæmi 1:
-i = 1
-meðan talan er ekki 0:
-	ef fyrsti bitinn er 1:
-		út += i
-	tvöfalda i
-	bitshift inputtölu hægri um einn 
-
-skila út
+f(n):
+ef n == 0: skila 0
+skila f(n bitshiftað til hægri) * 2 + seinasti bitinn í n
